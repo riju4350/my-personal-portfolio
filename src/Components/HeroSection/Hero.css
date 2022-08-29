@@ -1,0 +1,67 @@
+.hero {
+  display: flex;
+  height: 100vh;
+}
+.hero .left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-wrapper {
+  padding: 50px;
+  height: 50%;
+}
+.hero .hero-heading {
+  font-size: 30px;
+  font-weight: 300;
+}
+.hero .hero-name {
+  font-size: 60px;
+  font-weight: bold;
+}
+.title-container {
+  display: flex;
+}
+.title-text {
+  font-size: 30px;
+}
+.hero-title {
+  height: 50px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.title-wrapper {
+  height: 100%;
+  animation: move 6s ease-in-out infinite alternate;
+}
+@keyframes move {
+  33.33% {
+    transform: translateY(-50px);
+  }
+  66.66% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(-150px);
+  }
+}
+.title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #59b256;
+  display: flex;
+  align-items: center;
+}
+.hero .right {
+  flex: 1;
+}
+.hero .right img {
+  width: 100%;
+}
+.mouseIcon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
